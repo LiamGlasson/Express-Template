@@ -25,8 +25,7 @@ $ npm install
 ___
 `.env` File
 ---
-The template is set by default to use a `.env` file when configuring which port to run on.
-<br>This file can also be configured to store other secrets such as database credentials, and as such should never be uploaded publicly. <br>
+The template is set by default to use a `.env` file when configuring which port to run on. This file can also be configured to store other secrets such as database credentials, and as such should never be uploaded publicly. <br>
 <br>**If you do not wish to use a `.env` file, you should delete it and update the following code:**
 
 ```js
