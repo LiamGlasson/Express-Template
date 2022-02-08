@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Module dependencies.
 const express = require('express');
 const logger = require('morgan');
@@ -34,7 +36,9 @@ app.use(function(req, res, next) {
 app.use(function(err, req, res, next) {
   // Setting up locals.
   res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {}; // Set to !== after development.
+
+  // Set to !== after development.
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
 
   // Rendering the error page.
   res.status(err.status || 500);
