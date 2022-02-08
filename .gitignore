@@ -4,4 +4,4 @@ node_modules/
 
 # Excluded Files
 package-lock.json
-# .env
+.env
