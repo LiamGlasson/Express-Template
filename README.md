@@ -1,27 +1,32 @@
-# Express-Template
-A template for easily creating Express Websites.
+# Express Template
+A template for easily creating Express.js Websites.
 
 ___
 Cloning
 ---
-
-If you wish to copy the template into a renamed directory:
+Use the following command to get started:
 ```shell
-$ git clone 'https://github.com/LiamGlasson/Express-Template' 'application_name'
-```
-Otherwise, use:
-```shell
-$ git clone 'https://github.com/LiamGlasson/Express-Template'
+$    git clone 'https://github.com/LiamGlasson/Express-Template'
 ```
 ___
-Installing Dependencies
+Dependencies
 ---
 
-Open a terminal in **Visual Studio Code** using `Ctrl + Shift + '` and run the following command:
+To install the required dependencies, open a terminal and run the following command:
 ```
-$ npm install
+$    npm install
 ```
-
+___
+Usage
+---
+- To start the server normally, use:
+```
+$    npm run start
+```
+- To start the server in ***developer*** mode, use:
+```
+$    npm run dev
+```
 ___
 `.env` File
 ---
